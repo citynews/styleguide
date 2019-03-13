@@ -1,0 +1,9 @@
+<article class="story featured-story featured-sm">
+	<header class="story-header">
+		<span class="label theme-color">label</span>
+		<h3 class="story-heading heading-sm">
+      <a href="#" class="link">{{ title }}</a>
+    </h3>
+		<p class="summary story-summary hidden-xs">{{ summary }}</p>
+	</header>
+</article>

@@ -1,0 +1,17 @@
+<article class="story featured-story featured-md has-border-bottom">
+	<figure class="story-media media-xs media-full">
+		<a href="#">
+			<picture>
+				<source srcset="{{ imgsrc }}" media="(min-width: 46.25em)">
+				<img srcset="{{ imgsrc }}" alt="{{title}}">
+			</picture>
+		</a>
+	</figure>
+	<header class="story-header">
+		<span class="label theme-color">label</span>
+		<h2 class="story-heading heading-md">
+      <a href="#" class="link">{{ title }}</a>
+    </h2>
+		<p class="summary story-summary hidden-xs">{{ summary }}</p>
+	</header>
+</article>

@@ -1,0 +1,39 @@
+<li class="l-list-item item-span-1 slice-item">
+	<article class="story">
+		<figure class="story-media media-xs media-full video-media">
+			<a href="#">
+				<span class="play-video-icon"></span>
+				<picture>
+					<source srcset="{{imgsrc}}" media="(min-width: 46.25em)">
+					<img srcset="{{imgsrc}}" alt="Alt title">
+				</picture>
+			</a>
+		</figure>
+		<header class="story-header">
+			<h3 class="story-heading heading-std">
+        <a href="#" class="link">{{title}}</a>
+      </h3>
+			<p class="summary story-summary">{{summary}}</p>
+		</header>
+	</article>
+</li>
+
+<li class="l-list-item item-span-1">
+	<article class="story">
+		<header class="story-header">
+			<h5 class="story-heading heading-xs">
+        <a href="#" class="link">{{related}}</a>
+      </h5>
+		</header>
+	</article>
+</li>
+
+<li class="l-list-item item-span-1">
+	<article class="story">
+		<header class="story-header">
+			<h5 class="story-heading heading-xs">
+        <a href="#" class="link">{{related2}}</a>
+      </h5>
+		</header>
+	</article>
+</li>

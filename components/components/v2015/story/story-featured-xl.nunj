@@ -1,0 +1,30 @@
+<article class="story featured-story featured-xl">
+  <figure class="story-media media-half video-media">
+    <a href="#">
+      <span class="play-video-icon"></span>
+      <picture>
+        <source srcset="{{ imgsrc }}" media="(min-width: 46.25em)">
+        <img srcset="{{ imgsrc }}" alt="{{title}}">
+      </picture>
+    </a>
+  </figure>
+  <header class="story-header">
+    <span class="label theme-color">label</span>
+    <h2 class="story-heading heading-md"><a href="#" class="link">{{ title }}</a></h2>
+    <p class="summary story-summary">{{ summary }}</p>
+  </header>
+  <footer class="story-footer hidden-xs">
+    <div class="sublinks">
+      <ul class="u-unstyled">
+        {% for item in range(0,5) %}
+          <li class="sublink">
+            <a href="#" class="link">
+              <strong class="kicker theme-color">label / </strong>
+              {{ title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </footer>
+</article>

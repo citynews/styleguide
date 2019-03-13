@@ -1,0 +1,32 @@
+<article class="story hero-story featured-hero">
+		<figure class="story-media media-full">
+			<a href="#">
+				<img src="{{ imgsrc }}">
+			</a>
+		</figure>
+		<header class="story-header">
+			<h1 class="story-heading heading-lg">
+        <a href="#" class="link">{{ title }}</a>
+      </h1>
+      {{% for item in range(0,5) %}
+        <span class="story-subheading theme-element-bg">
+          <a href="#" class="link">{{ subtitle }}</a>
+        </span>
+      {% endfor %}
+			<p class="summary story-summary">{{ summary }}</p>
+		</header>
+		<footer class="story-footer">
+      <div class="sublinks">
+        <ul class="u-unstyled">
+         {% for item in range(0,5) %}
+            <li class="sublink">
+              <a href="#" class="link">
+                <strong class="kicker">label / </strong>
+                {{ title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+		</footer>
+</article>

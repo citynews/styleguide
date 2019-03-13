@@ -1,0 +1,30 @@
+<article class="story hero-story cover-hero inverted">
+	<header class="story-header">
+		<figure class="story-media media-full">
+      <a href="#">
+        <img src="{{ imgsrc }}">
+      </a>
+    </figure>
+		<h1 class="story-heading heading-xl">
+      <a href="#" class="link">{{ title }}</a>
+    </h1>
+	</header>
+	<footer class="story-footer">
+    {% for item in range(0,5) %}
+      <span class="story-subheading theme-element-bg"><a href="#" class="link">{{ title }}</a></span>
+    {% endfor %}
+		<p class="summary story-summary">{{ summary }}</p>
+    <div class="sublinks">
+      <ul class="u-unstyled">
+        {% for item in range(0,5) %}
+          <li class="sublink">
+            <a href="#" class="link">
+              <strong class="kicker theme-color">{{ related2 }} / </strong>
+              {{ related }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+	</footer>
+</article>

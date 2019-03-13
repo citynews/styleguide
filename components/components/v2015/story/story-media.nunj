@@ -1,0 +1,13 @@
+<article class="story media-story">
+  <figure class="story-media media-full video-media">
+    <a href="#" class="block-link">
+      <span class="play-video-icon"></span>
+      <img src="{{imgsrc}}" alt="Alt title">
+    </a>
+  </figure>
+  <header class="story-header">
+    <a href="#" class="block-link">
+      <h3 class="story-heading heading-std">{{title}}</h3>
+    </a>
+  </header>
+</article>

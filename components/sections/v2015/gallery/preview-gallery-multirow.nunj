@@ -1,0 +1,17 @@
+<div class="photo-gallery-preview">
+  <h4 class="preview-gallery-heading">
+    <svg class="icon inline-icon small camera-icon theme-fill">
+      <use xlink:href="#camera-icon"></use>
+    </svg>
+    <a href="#" class="link">{{ title }}</a>
+  </h4>
+  <ul class="u-unstyled preview-gallery-list multi-row-gallery">
+    {% for thumb in range(0,27) %}
+    <li class="preview-gallery-item">
+      <figure>
+        <a href="#"><img src="{{ imgsrc }}"></a>
+      </figure>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
