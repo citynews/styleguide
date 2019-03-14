@@ -1,0 +1,7 @@
+<ul>
+{% for text,style in styles %}
+  <li>
+    <button class="{{ style|e }}">{{ style|e }}</button>
+  </li>  
+{% endfor %}
+</ul>

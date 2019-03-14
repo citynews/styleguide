@@ -1,0 +1,28 @@
+{# basic heading #}
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6>
+<p>simple paragraph</p>
+<blockquote>blockquote</blockquote>
+<hr>
+<abbr>abbr</abbr>
+{# paragraph #}
+<p class="text-lg">text-lg</p>
+<p class="text-sm">text-sm</p>
+<p class="help-text">  help-tex</p>
+<p class="native-label">  native-label</p>
+{# heading style #}
+<h6 class="heading-xl">  heading-xl</h6>
+<h6 class="heading-lg">  heading-lg</h6>
+<h6 class="heading-std">  heading-std</h6>
+<h6 class="heading-md">  heading-md</h6>
+<h6 class="heading-sm">  heading-sm</h6>
+<h6 class="heading-xs">  heading-xs</h6>
+{# summary #}
+<p class="summary"> summary</p>
+<p class="inverted summary"> inverted summary</p>
+<p class="entry-summary"> entry-summary</p>
+

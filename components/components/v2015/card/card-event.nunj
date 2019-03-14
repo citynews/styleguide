@@ -3,7 +3,7 @@
     <a href="#">
       <picture>
         <source srcset="{{imgsrc}}" media="(min-width: 46.25em)">
-        <img class="img--fullwidth" srcset="{{imgsrc2}}" alt="">
+        <img class="img--fullwidth" srcset="{{imgsrc}}" alt="">
       </picture>
       <span class="label label--inverse label--inverse-cultura">label</span>
     </a>

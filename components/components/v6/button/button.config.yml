@@ -1,0 +1,7 @@
+title: Button
+prefix: "v6"
+context:
+  styles:
+    o-button--light: o-button--light
+    o-button--primary: o-button--primary
+    o-button--sm: o-button--sm

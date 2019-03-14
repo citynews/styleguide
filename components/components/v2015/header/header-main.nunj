@@ -24,7 +24,7 @@
     {% render "@v2015-header-toolbar" %}
 
     <!-- Nav Button -->
-    {% render "@buttons" %}
+    {% render "@v2015-button" %}
 	</div>
 	<div class="header-bottom">
 

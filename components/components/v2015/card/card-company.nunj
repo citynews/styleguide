@@ -8,7 +8,7 @@
   </header>
   <figure class="card-media">
     <a href="#" class="link">
-      <img alt="Angela Dassisti" title="Angela Dassisti" src="{{imgsrc2}}">
+      <img alt="Angela Dassisti" title="Angela Dassisti" src="{{imgsrc}}">
     </a>
   </figure>
   <div class="card-meta">

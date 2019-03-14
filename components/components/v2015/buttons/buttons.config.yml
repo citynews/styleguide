@@ -2,3 +2,28 @@ title: Example component
 prefix: "v2015"
 context:
     text: This is an example component!
+    
+    # // Button Styles -------------------------------------------------------------*/
+    styles:
+        default-btn: default-btn
+        primary-btn: primary-btn
+        inverse-btn: inverse-btn
+        link-btn: link-btn
+        light-btn: light-btn
+        rounded-btn: rounded-btn
+        nav-btn: nav-btn
+        login-btn: login-btn
+        search-btn: search-btn
+        close-btn: close-btn 
+        share-btn: share-btn
+        twitter-share-btn: twitter-share-btn
+        whatsapp-share-btn: whatsapp-share-btn
+        facebook-share-btn: facebook-share-btn
+        facebook-connect-wrapper: facebook-connect-wrapper
+        facebook-connect-btn: facebook-connect-btn
+        facebook-connect-iframe: facebook-connect-iframe
+        telegram-share-btn: telegram-share-btn
+        btn-file-upload: btn-file-upload
+        button--raised: button--raised 
+        button--block: button--block
+        button--fluid: button--fluid

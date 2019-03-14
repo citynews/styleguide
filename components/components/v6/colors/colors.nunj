@@ -1,0 +1,5 @@
+{% for text, color in colors %}
+    <span>VAR: <strong>{{ text|e }}</strong></span> | <span>HEX: <strong>#{{ color|e }}</strong></span>
+    <div style="background: #{{ color|e }}; height:30px; width:90vw;"></div>
+    <br>
+{% endfor %}
