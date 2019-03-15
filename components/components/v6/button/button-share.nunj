@@ -1,0 +1,7 @@
+<div class="o-button o-button--primary u-mb-size2x js-widget-open" data-attr="widget-share-bottom">
+  <svg class="o-icon o-icon--inverse o-icon--md u-mr-size1x">
+    <use xlink:href="#" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+  </svg>
+  Condividi
+  <span class="c-counter__sharrre-number o-primer o-color-inverse u-ml-size1x">52</span>
+</div>
