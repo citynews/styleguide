@@ -11,7 +11,7 @@
 			</div>
 
       {# {% if logo_txt %} #}
-			  {% render "@v2015-brand-text" %}
+			  {# {% render "@v2015-brand-text" %} #}
       {# {% else %} #}
         {% render "@v2015-brand-one" %}
       {# {% endif %} #}
@@ -24,7 +24,7 @@
     {% render "@v2015-header-toolbar" %}
 
     <!-- Nav Button -->
-    {% render "@v2015-button" %}
+    {# {% render "@v2015-button" %} #}
 	</div>
 	<div class="header-bottom">
 
